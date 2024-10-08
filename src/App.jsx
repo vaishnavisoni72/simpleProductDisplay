@@ -1,13 +1,15 @@
 import React from 'react'
-import { useState } from 'react'
+
+// importing external files
 import './App.css'
+import Navigation from './Navigation'
 
 function App() {
   
   return (
    
     <div>
-      <h1>hello</h1>
+      <Navigation/>
     </div>
 
   )
